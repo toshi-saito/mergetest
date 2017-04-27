@@ -1,3 +1,4 @@
+docker.build("usagi")
 docker.image("usagi").inside("-u 0:0") {
 
   stage("Boot services") {
