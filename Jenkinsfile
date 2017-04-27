@@ -1,4 +1,4 @@
-checkout scm
+checkout scm;
 docker.build("usagi")
 docker.image("usagi").inside("-u 0:0") {
 
